@@ -1,0 +1,1331 @@
+<!--游戏状态监控弹窗-->
+
+<div class="modal fade bs-example-modal-lg" id="myModal1" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!--游戏状态监控内容-->
+            <div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title" >游戏状态监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control" >
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--游戏状态监控内容-->
+        </div>
+    </div>
+</div>
+
+<!--游戏状态监控弹窗-->
+
+<!--游戏兑奖情况监控-->
+
+<div class="modal fade bs-example-modal-lg" id="myModal2" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!--游戏兑奖情况监控-->
+            <div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title" >游戏兑奖情况监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label  class="col-sm-offset-3 col-sm-2 control-label">ES系统兑奖次数:</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+<!--游戏兑奖情况监控-->
+
+<!--游戏交易数量监控-->
+
+<div class="modal fade bs-example-modal-lg" id="myModal3" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!--游戏交易数量监控-->
+            <div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title">游戏交易数量监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <table class="table text-center">
+                        <tbody>
+                        <tr>
+                            <td class="col-sm-4">采种名称</td>
+                            <td class="col-sm-4">销量下限</td>
+                            <td class="col-sm-4">销量上限</td>
+                        </tr>
+                        <tr>
+                            <td>双色球</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td>七乐彩</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td>3D</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td>快乐8</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td>PK10</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td>快3</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+
+
+
+                        </tbody>
+                    </table>
+
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--游戏交易数量监控-->
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<!--游戏交易数量监控-->
+
+<!--服务器性能监控-->
+
+<div class="modal fade bs-example-modal-lg" id="myModal4" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!--服务器性能监控-->
+             <div class="modal-header">
+                 <button data-dismiss="modal" aria-label="Close">
+                     <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                 </button>
+                 <h4 class="modal-title">服务器性能监控</h4>
+             </div>
+             <div class="modal-body">
+                 <form class="form-horizontal">
+                     <div class="form-group bg-ededed">
+                         <label  class="col-sm-2 control-label">CPU上限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                         <label  class="col-sm-2 control-label">CPU下限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                     </div>
+                     <div class="form-group bg-ededed">
+                         <label  class="col-sm-2 control-label">CPU上限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                         <label  class="col-sm-2 control-label">CPU下限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                     </div>
+                     <div class="form-group bg-ededed">
+                         <label  class="col-sm-2 control-label">CPU上限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                         <label  class="col-sm-2 control-label">CPU下限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                     </div>
+                     <div class="form-group bg-ededed">
+                         <label  class="col-sm-2 control-label">CPU上限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                         <label  class="col-sm-2 control-label">CPU下限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                     </div>
+
+
+                     <div class="form-group">
+                         <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                         <div class="col-sm-4">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-6">
+                             <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                             <label class="radio-inline col-sm-4">
+                                 <input type="radio" name="optionsRadios" > 是
+                             </label>
+                             <label class="radio-inline col-sm-4">
+                                 <input type="radio" name="optionsRadios" > 否
+                             </label>
+                         </div>
+                     </div>
+                     <div class="form-group">
+                         <div class="text-center">
+                             <button type="submit" class="btn">保存</button>
+                         </div>
+                     </div>
+                 </form>
+             </div>
+            <!--服务器性能监控-->
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<!--服务器性能监控-->
+
+<!--渠道1压单监控-->
+
+<div class="modal fade bs-example-modal-lg" id="myModal5" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!--渠道1压单监控-->
+            <div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title">渠道1压单监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" name="optionsRadios" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" name="optionsRadios" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--渠道1压单监控-->
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<!--渠道1压单监控-->
+
+<!--渠道1单量监控-->
+
+<div class="modal fade bs-example-modal-lg" id="myModal6" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!--渠道1单量监控-->
+            <div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title" >渠道1单量监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label  class="col-sm-offset-3 col-sm-2 control-label">接单下限数量:</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="0">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--渠道1单量监控-->
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<!--渠道1单量监控-->
+
+<!--渠道1出票监控-->
+
+<div class="modal fade bs-example-modal-lg" id="myModal7" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!--渠道1出票监控-->
+            <div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title" >渠道1出票监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label  class="col-sm-offset-3 col-sm-2 control-label">出票下限数量:</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="0">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--渠道1出票监控-->
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<!--渠道1出票监控-->
+
+<!---->
+
+<div class="modal fade bs-example-modal-lg" id="myModal8" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!--渠道1返回超时监控-->
+            <div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title" >渠道1返回超时监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label  class="col-sm-offset-3 col-sm-2 control-label">计超时数量:</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="0">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--渠道1返回超时监控-->
+        </div>
+    </div>
+</div>
+
+<!--渠道1返回超时监控-->
+
+<!--各渠道交易数量监控-->
+<div class="modal fade bs-example-modal-lg" id="myModal9" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!--各渠道交易数量监控-->
+            <div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title">各渠道交易数量监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <table class="table text-center">
+                        <tbody>
+                        <tr>
+                            <td>是否提示</td>
+                            <td>渠道编号</td>
+                            <td>渠道名称</td>
+                            <td>销量下限</td>
+                            <td>销量上限</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>400</td>
+                            <td>测试工具华彩后给钱</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>400</td>
+                            <td>测试工具华彩后给钱</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>400</td>
+                            <td>测试工具华彩后给钱</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>400</td>
+                            <td>测试工具华彩后给钱</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>400</td>
+                            <td>测试工具华彩后给钱</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>400</td>
+                            <td>测试工具华彩后给钱</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+
+
+
+                        </tbody>
+                    </table>
+
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--各渠道交易数量监控-->
+        </div>
+    </div>
+</div>
+<!--各渠道交易数量监控-->
+
+
+
+
+
+
+
+
+
+
+
+<!--游戏状态置控弹窗-->
+
+<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <!--所有弹窗内容都在注释里面每一个都有注释说明然后点击那个模块显示对应的模块内容即可！-->
+
+            <!--游戏状态监控内容-->
+            <!--<div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title" >游戏状态监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control" >
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>-->
+            <!--游戏状态监控内容-->
+
+
+
+            <!--游戏兑奖情况监控-->
+            <!--<div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title" >游戏兑奖情况监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label  class="col-sm-offset-3 col-sm-2 control-label">ES系统兑奖次数:</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>-->
+
+
+
+            <!--游戏交易数量监控-->
+            <!--<div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title">游戏交易数量监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <table class="table text-center">
+                        <tbody>
+                        <tr>
+                            <td class="col-sm-4">采种名称</td>
+                            <td class="col-sm-4">销量下限</td>
+                            <td class="col-sm-4">销量上限</td>
+                        </tr>
+                        <tr>
+                            <td>双色球</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td>七乐彩</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td>3D</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td>快乐8</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td>PK10</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td>快3</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+
+
+
+                        </tbody>
+                    </table>
+
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>-->
+            <!--游戏交易数量监控-->
+
+
+
+            <!--各渠道交易数量监控-->
+            <!--<div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title">各渠道交易数量监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <table class="table text-center">
+                        <tbody>
+                        <tr>
+                            <td>是否提示</td>
+                            <td>渠道编号</td>
+                            <td>渠道名称</td>
+                            <td>销量下限</td>
+                            <td>销量上限</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>400</td>
+                            <td>测试工具华彩后给钱</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>400</td>
+                            <td>测试工具华彩后给钱</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>400</td>
+                            <td>测试工具华彩后给钱</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>400</td>
+                            <td>测试工具华彩后给钱</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>400</td>
+                            <td>测试工具华彩后给钱</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>400</td>
+                            <td>测试工具华彩后给钱</td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                            <td><input type="number" class="form-control" placeholder="0"></td>
+                        </tr>
+
+
+
+                        </tbody>
+                    </table>
+
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>-->
+            <!--各渠道交易数量监控-->
+
+
+
+
+            <!--服务器性能监控-->
+            <!-- <div class="modal-header">
+                 <button data-dismiss="modal" aria-label="Close">
+                     <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                 </button>
+                 <h4 class="modal-title">服务器性能监控</h4>
+             </div>
+             <div class="modal-body">
+                 <form class="form-horizontal">
+                     <div class="form-group bg-ededed">
+                         <label  class="col-sm-2 control-label">CPU上限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                         <label  class="col-sm-2 control-label">CPU下限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                     </div>
+                     <div class="form-group bg-ededed">
+                         <label  class="col-sm-2 control-label">CPU上限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                         <label  class="col-sm-2 control-label">CPU下限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                     </div>
+                     <div class="form-group bg-ededed">
+                         <label  class="col-sm-2 control-label">CPU上限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                         <label  class="col-sm-2 control-label">CPU下限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                     </div>
+                     <div class="form-group bg-ededed">
+                         <label  class="col-sm-2 control-label">CPU上限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                         <label  class="col-sm-2 control-label">CPU下限:</label>
+                         <div class="col-sm-3">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-1 per-cent">%</div>
+                     </div>
+
+
+                     <div class="form-group">
+                         <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                         <div class="col-sm-4">
+                             <input type="number" class="form-control"  placeholder="">
+                         </div>
+                         <div class="col-sm-6">
+                             <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                             <label class="radio-inline col-sm-4">
+                                 <input type="radio" name="optionsRadios" > 是
+                             </label>
+                             <label class="radio-inline col-sm-4">
+                                 <input type="radio" name="optionsRadios" > 否
+                             </label>
+                         </div>
+                     </div>
+                     <div class="form-group">
+                         <div class="text-center">
+                             <button type="submit" class="btn">保存</button>
+                         </div>
+                     </div>
+                 </form>
+             </div>-->
+            <!--服务器性能监控-->
+
+
+
+            <!--渠道1压单监控-->
+            <!--<div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title">渠道1压单监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" name="optionsRadios" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" name="optionsRadios" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>-->
+            <!--渠道1压单监控-->
+
+
+
+            <!--渠道1压单监控-->
+            <!--<div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title">渠道1压单监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group bg-ededed">
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <label  class="col-sm-3 control-label">18:00:00-18:10:00</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" name="optionsRadios" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" name="optionsRadios" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>-->
+            <!--渠道1压单监控-->
+
+
+
+
+
+
+            <!--渠道1单量监控-->
+            <!--<div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title" >渠道1单量监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label  class="col-sm-offset-3 col-sm-2 control-label">接单下限数量:</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="0">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>-->
+            <!--渠道1单量监控-->
+
+            <!--渠道1出票监控-->
+            <!--<div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title" >渠道1出票监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label  class="col-sm-offset-3 col-sm-2 control-label">出票下限数量:</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="0">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>-->
+            <!--渠道1出票监控-->
+
+
+            <!--渠道1返回超时监控-->
+            <div class="modal-header">
+                <button data-dismiss="modal" aria-label="Close">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+                <h4 class="modal-title" >渠道1返回超时监控</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label  class="col-sm-offset-3 col-sm-2 control-label">计超时数量:</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="0">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">统计时间(秒):</label>
+                        <div class="col-sm-4">
+                            <input type="number" class="form-control"  placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="col-sm-3 text-right" style="line-height: 32px">是否报警</span>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 是
+                            </label>
+                            <label class="radio-inline col-sm-4">
+                                <input type="radio" > 否
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--渠道1返回超时监控-->
+
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<!--游戏状态置控弹窗-->

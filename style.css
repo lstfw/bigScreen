@@ -1,0 +1,370 @@
+body{
+    font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+}
+
+
+.container-fluid{
+    min-width: 1920px;
+    padding: 0;
+}
+.head{
+    background: #343f51;
+    color: #fff;
+    height: 55px;
+    line-height: 55px;
+}
+.head h2{
+    margin: 10px 15px;
+    font-size: 32px;
+}
+.head .icon{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    background: #486dc0;
+    margin-left: 15px;
+}
+.head span{
+    display: inline-block;
+    font-size: 35px;
+    cursor: pointer;
+}
+.inner{
+    padding: 5px;
+    background: #f1f1f2;
+}
+.inner-left{
+    width: 73.0208333%;
+    min-width: 1402px;
+    margin-right: 4px;
+}
+.inner-right{
+    width: 26.25%;
+    min-width: 504px;
+}
+/*游戏状态监控*/
+.state{
+    width: 56.348074%;
+    min-width: 790px;
+    margin-right: 8px;
+    margin-bottom: 2px;
+}
+
+.state .list-group-item-heading{
+    font-size: 16px;
+    font-weight: bold;
+}
+.state .img{
+    display: inline-block;
+    width: 15.991561%;
+    padding: 9px 0;
+    text-align: center;
+}
+.state .img span{
+    display: inline-block;
+    width: 73px;
+    height: 73px;
+}
+.state .img .ssq{
+    background: url("img/bg-btn.png") -48px -267px no-repeat;
+}
+.state .img .ssq.red{
+    background-position: -48px -43px;
+}
+.state .img .ssq.yellow{
+    background-position: -48px -155px;
+}
+
+.state .img .qlc{
+    background: url("img/bg-btn.png") -169px -267px no-repeat;
+}
+.state .img .qlc.red{
+    background-position: -169px -43px;
+}
+.state .img .qlc.yellow{
+    background-position: -169px -155px;
+}
+
+.state .img .fc3D{
+    background: url("img/bg-btn.png") -291px -267px no-repeat;
+}
+.state .img .fc3D.red{
+    background-position: -291px -43px;
+}
+.state .img .fc3D.yellow{
+    background-position: -291px -155px;
+}
+
+.state .img .kl8{
+    background: url("img/bg-btn.png") -411px -267px no-repeat;
+}
+.state .img .kl8.red{
+    background-position: -411px -43px;
+}
+.state .img .kl8.yellow{
+    background-position: -411px -155px;
+}
+
+.state .img .PK10{
+    background: url("img/bg-btn.png") -533px -267px no-repeat;
+}
+.state .img .PK10.red{
+    background-position: -533px -43px;
+}
+.state .img .PK10.yellow{
+    background-position: -533px -155px;
+}
+
+.state .img .k3{
+    background: url("img/bg-btn.png") -654px -267px no-repeat;
+}
+.state .img .k3.red{
+    background-position: -654px -43px;
+}
+.state .img .k3.yellow{
+    background-position: -654px -155px;
+}
+
+
+
+
+/*游戏期次监控*/
+.stage{
+    width: 42.439372%;
+    min-width: 595px;
+    background: #fff;
+}
+.stage table{
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.stage .table>tbody>tr>td{
+    padding: 13px 10px;
+}
+
+
+/*交易数据监控*/
+.trade{
+    width: 603px;
+    min-width: 603px;
+    margin-right: 7px;
+    margin-top: 8px;
+}
+.trade-box{
+    height: 405px;
+    border: 1px solid #ddd;
+}
+
+
+/*各渠道交易数量监控*/
+.channel{
+    width: 783px;
+    margin-top: 8px;
+}
+/*通讯网络监控*/
+.address{
+    width: 645px;
+    margin-right: 7px;
+    margin-top: 8px;
+}
+.address .list-group{
+    margin-bottom: 0;
+}
+.address .list-group-item{
+    padding: 28px 10px;
+
+}
+.list-group-item:first-child,.list-group-item:last-child{
+    border-radius: 0;
+}
+
+
+.address .img-bg{
+    display: inline-block;
+    width: 81px;
+    height: 11px;
+    background: url("img/bg-btn.png") -42px -420px no-repeat;
+}
+
+.address .img-bg.yellow{
+    background-position: -176px -420px;
+}
+
+.address .img-bg.red{
+    background-position: -297px -420px;
+}
+
+
+/*服务器性能监控*/
+.property{
+    width: 741px;
+    margin-top: 8px;
+}
+
+.property-box{
+    height: 411px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-top: none;
+}
+
+.property .td-bg{
+    width: 157px;
+    background: url("img/bg-btn.png") -24px -454px no-repeat;
+}
+
+.property .td-bg.yellow{
+    background-position: -176px -454px;
+}
+
+.property .td-bg.red{
+    background-position: -325px -454px;
+}
+
+.td-bg{
+    background: url("img/bg.png") no-repeat center;
+}
+.property-box .table>tbody>tr>td{
+    padding: 15px;
+}
+
+
+
+
+/*右侧图表*/
+.inner-right{
+    margin-top: -5px;
+}
+.timeout{
+    margin-top: -1px;
+}
+.timeout-box{
+    height: 289px;
+    border: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+/*公共头*/
+.title{
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    background: #f0f2f4;
+    text-align: center;
+    position: relative;
+}
+.title .form-control{
+    width: 49%;
+   display: inline-block;
+    border: none;
+    outline: none;
+    background: #f0f2f4;
+    color: #000;
+    font-size: 24px;
+    padding: 0;
+    text-align: center;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.title .glyphicon-triangle-bottom{
+    position: absolute;
+    top: 18px;
+    left: 310px;
+
+}
+
+
+
+/*小喇叭*/
+.icons{
+    color: #7f8793;
+}
+.icons span{
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/*弹窗样式*/
+
+.modal-content{
+    border-radius: 0;
+}
+.modal-header{
+    background: #343f51;
+    color: #fff;
+}
+.modal-header button{
+    float: right;
+    font-size: 25px;
+    border: none;
+    background: #343f51;
+    outline: none;
+}
+.modal-body form .btn{
+    width: 135px;
+    height: 55px;
+    color: #fff;
+    background: #00a8ee;
+    font-size: 24px;
+}
+.modal-body form .table{
+    background: #ededed;
+}
+.modal-body form .table td{
+    border: none;
+}
+.per-cent{
+    padding: 0;
+    margin-left: -10px;
+    line-height: 34px;
+}
+.bg-ededed{
+    background: #ededed;
+}
+.form-horizontal .form-group{
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
